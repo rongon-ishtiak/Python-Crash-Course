@@ -32,5 +32,13 @@ print(new_motorcycles)
 popped_motorcycle: str = new_motorcycles.pop()
 print(f"The last motorcycle I owned was {popped_motorcycle.title()}.")
 
+# Popping an item from any positions in the list
+first_owned: str = motorcycles.pop(1)
+print(f"First motorcycle I owned was a {first_owned.title()}.")
+
+# Removing an item by Value
+new_motorcycles.remove('hornet')
+print(new_motorcycles)
+
 
 
