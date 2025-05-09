@@ -18,3 +18,8 @@ last_name = "ahmed"
 full_name = f"Hello, {first_name} {last_name}"
 
 print(full_name.title())
+
+# STRIPING WHITESPACES
+
+favorite_language = 'python '
+print(f"My favorite programming language is {favorite_language.rstrip()}")
