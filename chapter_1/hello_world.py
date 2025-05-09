@@ -15,6 +15,6 @@ print(name.capitalize())
 # USING VARIABLES IN STRINGS
 first_name = "ishtiak"
 last_name = "ahmed"
-full_name = f"{first_name} {last_name}"
+full_name = f"Hello, {first_name} {last_name}"
 
 print(full_name.title())
